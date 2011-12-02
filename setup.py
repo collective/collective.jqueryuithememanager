@@ -6,7 +6,7 @@ version = '1.0a3dev'
 setup(name='collective.jqueryuithememanager',
       version=version,
       description="JQueryUI theme manager for Plone",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers

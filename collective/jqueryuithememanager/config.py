@@ -1,7 +1,7 @@
 try:
     from collective.js.jqueryui.config import *
 except ImportError:
-    VERSION = '1.8.13'
+    VERSION = '1.8.16'
 
 PRELOADEDS = ('base', 'black-tie', 'blitzer', 'cupertino', 'dark-hive',
               'dot-luv','eggplant','excite-bike','flick','hot-sneaks',
@@ -15,7 +15,7 @@ BASE_THEMEID = 'sunburst'
 CDN_URL = 'http://ajax.googleapis.com/ajax/libs/jqueryui/%s/themes/%s/jquery-ui.css'
 
 BASE_JQUERYUI_URL = "http://jqueryui.com/themeroller/?ctl=themeroller&"
-ZIP_JQUERYUI_URL = "http://jquery-ui.googlecode.com/files/jquery-ui-themes-1.8.13.zip"
+ZIP_JQUERYUI_URL = "http://jquery-ui.googlecode.com/files/jquery-ui-themes-1.8.16.zip"
 BASE_CSS_PATH = "portal_resources/jqueryuitheme/css/%(id)s/jquery-ui-%(version)s.custom.css"
 THEME_RESOURCE_NAME = "jqueryuitheme"
 
@@ -89,10 +89,10 @@ FILES=['ui.core.js',
 'ui.selectable.js',
 'ui.sortable.js',
 'ui.accordion.js',
-'ui.autocomplete.js',
+'ui.autocomplete.js', #is in conflict with plone.formwidget.autocomplete
 'ui.dialog.js',
 'ui.slider.js',
-#'ui.tabs.js', is in conflict with jquerytools
+'ui.tabs.js', #is in conflict with jquerytools
 'ui.datepicker.js',
 'ui.progressbar.js',
 'effects.core.js',

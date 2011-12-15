@@ -15,10 +15,9 @@
 
     <a href=""
         class="link-parent"
-        tal:attributes="href string:${portal_url}/plone_control_panel"
-        i18n:domain="plone"
-        i18n:translate="label_up_to_plone_setup">
-            Up to Site Setup
+        tal:attributes="href string:${portal_url}/@@jqueryui-controlpanel"
+        i18n:translate="label_up_to_jqueryui">
+            Up to JQueryUI controlpanel
     </a>
 
     <p i18n:translate="description_theme_settings" class="discreet">

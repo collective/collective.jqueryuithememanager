@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0a3dev'
+version = '1.0'
 
 setup(name='collective.jqueryuithememanager',
       version=version,

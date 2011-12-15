@@ -5,6 +5,7 @@ Changelog
 ----------------
 
 - Fix eggs metadatas
+- update to jqueryui 1.8.16
 
 
 1.0a1 (2010-05-23)

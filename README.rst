@@ -5,25 +5,25 @@ This add-on let you manage the jqueryui theme used in Plone.
 
 Features:
 
-  * Import a theme from a zip file built on http://jqueryui.com/themeroller
-  * Import multiple themes from a zip file
-  * Create or modify themes within the control panel
-  * Load all default jqueryui themes in one click in the control panel
-  * Delete selected themes
-  * Update themes
-  * External add-on can embed themes within a zope browser resource directory
-  * Select a theme
+* Import a theme from a zip file built on http://jqueryui.com/themeroller
+* Import multiple themes from a zip file
+* Create or modify themes within the control panel
+* Load all default jqueryui themes in one click in the control panel
+* Delete selected themes
+* Update themes
+* External add-on can embed themes within a zope browser resource directory
+* Select a theme
 
 Dependencies
 ============
 
 This add-on use:
 
-  * collective.js.jqueryui
-  * collective.z3cform.colorpicker
-  * plone.app.registry
-  * plone.resource
-  * plone.namedfile
+* collective.js.jqueryui
+* collective.z3cform.colorpicker
+* plone.app.registry
+* plone.resource
+* plone.namedfile
 
 File system versus data base
 ============================
